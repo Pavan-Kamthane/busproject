@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYBUS</title>
+    <link rel="stylesheet" href="bus.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="booking-form">
+            <h1>Book Your Bus Ticket</h1>
+            <form>
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from">
+
+                <label for="to">To:</label>
+                <input type="text" id="to" name="to">
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+
+                <label for="passengers">Passengers:</label>
+                <input type="number" id="passengers" name="passengers" min="1" max="10">
+
+                <button type="submit">Search Buses</button>
+            </form>
+        </section>
+
+        <section class="bus-results">
+            <h2>Available Buses</h2>
+            <ul>
+                <li>
+                    <h3>Bus Name 1</h3>
+                    <p>From: Source</p>
+                    <p>To: Destination</p>
+                    <p>Departure Time: 10:00 AM</p>
+                    <p>Arrival Time: 12:00 PM</p>
+                    <p>Fare: $20</p>
+                    <button>Book Now</button>
+                </li>
+                <li>
+                    <h3>Bus Name 2</h3>
+                    <p>From: Source</p>
+                    <p>To: Destination</p>
+                    <p>Departure Time: 12:00 PM</p>
+                    <p>Arrival Time: 2:00 PM</p>
+                    <p>Fare: $25</p>
+                    <button>Book Now</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2023 Bus Ticket Website.
+            All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
