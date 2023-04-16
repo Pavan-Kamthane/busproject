@@ -25,16 +25,16 @@
             <h1>Book Your Bus Ticket</h1>
             <form>
                 <label for="from">From:</label>
-                <input type="text" id="from" name="from">
+                <input type="text" id="from" placeholder="From" name="from">
 
                 <label for="to">To:</label>
-                <input type="text" id="to" name="to">
+                <input type="text" id="to" placeholder="Going to" name="to">
 
                 <label for="date">Date:</label>
                 <input type="date" id="date" name="date">
-
+                <!-- 
                 <label for="passengers">Passengers:</label>
-                <input type="number" id="passengers" name="passengers" min="1" max="10">
+                <input type="number" id="passengers" name="passengers" min="1" max="10" placeholder="Min=1,Max=10"> -->
 
                 <button type="submit">Search Buses</button>
             </form>
@@ -43,7 +43,7 @@
         <section class="bus-results">
             <h2>Available Buses</h2>
             <ul>
-                <li>
+                <li class="daba">
                     <h3>Bus Name 1</h3>
                     <p>From: Source</p>
                     <p>To: Destination</p>
@@ -52,7 +52,7 @@
                     <p>Fare: $20</p>
                     <button>Book Now</button>
                 </li>
-                <li>
+                <li class="daba">
                     <h3>Bus Name 2</h3>
                     <p>From: Source</p>
                     <p>To: Destination</p>
